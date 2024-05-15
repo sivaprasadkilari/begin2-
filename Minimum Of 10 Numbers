@@ -1,0 +1,9 @@
+def find_minimum():
+    numbers = [];
+    for i in range(10):
+        num = int(input(""));
+        numbers.append(num);
+    min_number = min(numbers);
+    return min_number;
+min_num = find_minimum()
+print("Thank you!", min_num, "is the smallest number.");
