@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n=int(input(""));
+def sum_of_odd_numbers(n):
+    num_odd_numbers = (n + 1)//2;
+    return num_odd_numbers * num_odd_numbers;
+print(sum_of_odd_numbers(n));
