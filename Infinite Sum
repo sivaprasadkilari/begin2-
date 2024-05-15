@@ -1,0 +1,10 @@
+def sum_until_minus_one():
+    total = 0;
+    while True:
+        num = int(input(""));
+        if num == -1:
+            break;
+        total += num;
+    return total;
+result = sum_until_minus_one();
+print(result);
